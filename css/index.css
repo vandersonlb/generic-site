@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.background {
+  width: 56%;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  filter: grayscale(0.85);
+  transition: 0.8s;
+}
+
+.background.left {
+  background-image: url(../img/background_left.jpg);
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+  left: 0;
+}
+
+.background.right { 
+  background-image: url(../img/background_right.jpg);
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+  right: 0;
+}
+
+.background:hover {
+  filter: grayscale(0.20);
+}
+
+.claim {
+  position: absolute;
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  bottom: 20%;
+  line-height: 75px;
+  text-align: center;
+  transition: 1s;
+}
+
+.claim span {
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.claim.soccer {
+  right: 25%;
+}
+
+.claim.tennis {
+  left: 15%;
+}

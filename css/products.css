@@ -1,0 +1,48 @@
+.container {
+  gap: 8%;
+}
+
+.categorie {
+  height: 55%;
+  transition: ease-in-out 0.6s;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+}
+
+.cat-container {
+  max-width: 150px;
+}
+
+.cat-title {
+  font-size: 24px;
+  line-height: 23px;
+  font-weight: 600;
+  margin: 9px 0;
+}
+
+.cat-desc {
+  font-size: 18px;
+  line-height: 20px;
+  margin: 9px 0;
+}
+
+.cat-ref {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 9px 0;
+}
+
+.categorie > img {
+  height: 100%;
+  margin-right: 8px;
+}
+
+.categorie button {
+  margin-bottom: 30px;
+}
+
+.material-icons.icons {
+  cursor: pointer;
+}
+

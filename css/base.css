@@ -1,0 +1,89 @@
+/** ROOT **/
+
+:root {
+  --primary-color: #57954C;
+  --secondary-color: #2D4A75;
+}
+
+/** RESET **/
+
+html {
+  font-family: bebas-neue-pro, sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/** BASE **/
+
+.header {
+  padding: 30px 55px;
+  text-align: right;
+}
+
+.line {
+  width: calc(100% - 180px);
+  position: absolute;
+  left: 55px;
+  top: 85px;
+  border-bottom: 2px solid black;
+}
+
+.logo-title {
+  width: 100%; 
+  position: absolute;
+  top: 40px;
+  text-align: center;
+  z-index: 1;
+}
+
+.main {
+  height: calc(100vh - 160px);
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+}
+
+.back, .plus {
+  font-size: 150px;
+  font-weight: 600;
+  position: absolute;
+}
+
+.back {
+  left: 55px;
+  bottom: 1px;
+  cursor: pointer;
+}
+
+.plus {
+  top: 145px;
+  right: 55px;
+}
+
+button, .button {
+  width: 140px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 6px 0px;
+  cursor: pointer;
+}
