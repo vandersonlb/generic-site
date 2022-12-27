@@ -1,4 +1,4 @@
-<img src="https://github.com/vandersonlb/generic-site/blob/master/img/banner_gh.jpg" width="100%" alt="Site genérico"/>
+<img src="https://github.com/vandersonlb/generic-site/blob/main/img/banner_gh.jpg" width="100%" alt="Site genérico"/>
 
 > Site genérico para testes com Google Analytics.
 
