@@ -6,7 +6,7 @@
 
 Site estático genérico simulando uma loja on-line de produtos esportivos. O objetivo do desenvolvimento desse site é para testar novas funcionalidades e tags do Google Analytics e Google Tag Manager.
 
-Veja pronto [aqui](vandersonlb.github.io/generic-site/).
+Veja pronto [aqui](https://vandersonlb.github.io/generic-site/).
 
 ### 🚀 Últimos ajustes
 
